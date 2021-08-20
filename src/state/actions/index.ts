@@ -5,14 +5,14 @@ export type Action =
     | SearchRepositoriesSuccessAction 
     | SearchRepositoriesErrorAction
 
-interface SearchRepositoriesAction{
+interface SearchRepositoriesAction {
     type: ActionType.SEARCH_REPOSITORIES;
 }
-interface SearchRepositoriesSuccessAction{
+interface SearchRepositoriesSuccessAction {
     type: ActionType.SEARCH_REPOSITORIES_SUCCESS;
     payload: string[];
 }
-interface SearchRepositoriesErrorAction{
+interface SearchRepositoriesErrorAction {
     type: ActionType.SEARCH_REPOSITORIES_ERROR;
     payload: string;
 }
