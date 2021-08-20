@@ -1,4 +1,4 @@
-# React TypeScrit Redux
+# React TypeScript Redux
 
 ```
 npx create-react-app react-redux-typescript --template typescript
